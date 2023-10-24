@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>VRS | Review page </title>
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!--rating star link-->
+
+          
+
+          <link rel="stylesheet" type="text/css" media="screen" href="Styles/Kaumadi.css">
+          <script src="Javascript/reviewpage.js"></script>
+          
+      </head>
+
+    <body>
+        <!--page header-->
+      <div class="main_header">
+
+          <div class="main">
+
+              <h3 class="headerlogo">Rent4U</h3>
+         
+              <div class="nav">
+                <a href="homePage.html">Home</a>
+                <a href="About Us.html">About us</a>
+                <a href="review_page.html">Reviews</a>
+                <a href="new contact.html">Contact</a> 
+
+              </div>
+
+              <!--login and register icons-->
+                <div class="loging">
+                    <ul>
+                   <li> <a class="btn1" id="btnlog" href="Login.html">Login</a> </li>
+                   <li> <a class="btn1" href="Registration Page.html">Register</a>  </li>
+                      </ul>
+                </div>
+                  <a class="userbtn" href="userprofile.php"> <img src="Images/avatar.png" class="avatar" > </a> 
+
+          </div>
+
+      </div>  
+      
+    
+           <!--cutomer reviews-->
+      
+          <div class="headerreview">
+
+              
+              <h2 class="header02">CUSTOMER REVIEWS</h2>
+
+              <div class="starmark01">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div> 
+          
+
+            <div class="para_01">  <p class="para01">4.7 Rating of 154 reviews</p> </div>
+          </div>
+
+          
+        <div class="reviews_list">
+
+            <ul>
+                <div class="r_list">
+                <li class="listreviews">
+
+                  <img src="Images/avatar.png" class="avatarmini">
+                  <h3 class="nameheader">Kamal De Silva</h3>
+                  <p class="para02">I am a daily customer and I really appreciate this service. For a busy life like mine it is really useful.</p>
+
+                  <br>
+                  <div class="starmark02">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  </div>
+                </li>
+              </div>
+
+              <br><br>
+
+              <div class="r_list">
+                <li class="listreviews">
+
+                  <img src="Images/avatar.png" class="avatarmini">
+                  <h3 class="nameheader">Supuli Thamadhi</h3>
+                  <p class="para02">Incredible service and great staff too. highly recommend!</p>
+            
+                  <br>
+                  <div class="starmark02">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                </li>
+              </div>
+              
+
+              <br><br>
+
+              <div class="r_list">
+                <li class="listreviews">
+
+                  <img src="Images/avatar.png" class="avatarmini">
+                  <h3 class="nameheader">Chris Morgon</h3>
+                  <p class="para02">It was a great experience. Lines can be a little long at times but overall it was awesome.</p>
+                  
+                  <br>
+                  <div class="starmark02">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                </li>
+              </div>
+            
+            </ul>
+
+
+          </div>
+          
+          
+         <div class="reviewMore">
+          <button class="button02" onclick="myFunction()"> Review more >></button>
+
+        
+         </div>
+      
+
+    </div>
+
+
+
+        <!--new customer reviews-->
+    <div class="lower_review">
+      <div class="reviews_all">
+          <div class="header_03">
+            <h3>Share your own experience with us....</h3>
+          </div>
+
+        <div class="form_01">
+            <form action="PHP/p.php" method="post">
+              <div class="box">
+              <label>User name:</label><br>
+              <input type="text" id="username" name="username"><br></div>
+              <br><br><br>
+          
+              <div class="box">
+              <textarea  id="massege_box" rows="10" cols="40" name="reviews">
+              </textarea></div>
+              <br><br><br><br>
+              
+              <div class="box">
+              <input type="submit" id="sub_mit" value="Submit"></div>
+
+              <br>
+              <p>"Admin will post your reviews to this page soon!"</p>
+
+            </form></div>
+            <br><br><br>
+    </div>
+  </div>
+
+
+  <div class="end">
+    <footer>
+        
+      
+        <div class="content3">
+                <span>-©2022. All Rights Reserved Rent4U Vehicle Rental Company-</span>     
+            </div>
+
+        <div class="content4">
+            <a href="https://www.facebook.com"> <img src="Images/facebook 3.png"  class="icons2"> </a>
+            <a href="https://www.instagram.com"> <img src="Images/instagram 3.png"  class="icons2"> </a>
+            <a href="https://www.twitter.com">  <img src="Images/twitter 2.png"  class="icons2"> </a>
+            <a href="https://www.linkedin.com">  <img src="Images/linkedin.png"  class="icons2"> </a>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
+
+    </body>
+
+</html>
+      
+    
+       

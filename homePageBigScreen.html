@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rent4u | home</title>
+    <link rel="stylesheet" type="text/css"  href="Styles/pasindu.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!--  <script src="Javascript/inukshi.js"></script> -->
+  <script src="Javascript/pasindu.js"></script>
+    <style>
+        .btn {
+          border-radius: 15px;
+          background-color: #4EC066;
+          border: none;
+          color: white;
+          padding: 12px 16px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+        /* Darker background on mouse-over */
+        .btn:hover {
+          background-color: #3e8e41;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        body{
+             background-image: url("Images/background1.jpg");
+            }
+
+    </style>
+</head>
+<body>
+    <div class="main_container">
+
+        <div class="main">
+                  <div class="logo"><a href="home.html" class="logo">Rent4u</a></div>           
+ 
+             <div class="nav">
+ 
+               <a href="homePage.html">Home</a>
+                <a href="About Us.html">About us</a>
+                <a href="review_page.html">Reviews</a>
+                <a href="new contact.html">Contact</a>           
+ 
+             </div>
+             <div class="loging">
+                 <ul>
+                   <li> <a class="btn1" id="btnlog" href="login.html">Login</a> </li>
+                   <li> <a class="btn1" href="Registation.html">Register</a>  </li>
+                 </ul>
+             </div>
+             <a class="userbtn" href="userprofile.php"> <img src="Images/avatar.png" class="avatar" > </a> 
+        </div>
+
+<hr><hr><hr>
+
+
+
+
+
+<div class="border" style="position:absolute; left:10px;right: 1000px;">
+    <div class="topic1">Need a vehicle for rent?</div>
+
+    <div class="dropdown" style = "position:relative; left:30px;">
+      <button class="dropbtn">Select Your Vehicle Type</button>
+      <div class="dropdown-content">
+          <a href="#">Scooter</a>
+          <a href="#">Motor Bicycle</a>
+          <a href="#">Three Wheeler</a>
+          <a href="#">Car</a>
+          <a href="#">SUV</a>
+      </div>
+    </div><br><br><br><br>
+
+
+    <!--<form action="/action_page.php">-->
+      <label for="pickup" class="date">Pickup Date :-</label>
+      <input type="date" id="pickup" name="pickup">
+      <input type="submit"><br><br><br>
+    <!--</form>-->
+
+    <!--<form action="/action_page.php">-->
+      <label for="return" class="date">Return Date :-</label>
+      <input type="date" id="return" name="return">
+      <input type="submit">
+    <!--</form>--><br><br><br>
+
+    <div style="position:relative; left:30px;">
+    <button class="button" style="vertical-align:middle"><span>Submit </span></button>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<div class="border" style="position:absolute; left:10px;right: 1000px;">
+    <div class="topic1">Need a Ride now?</div>
+
+    <div class="dropdown" style = "position:relative; left:30px;">
+      <button class="dropbtn">Select Your Vehicle Type</button>
+      <div class="dropdown-content">
+          <a href="#">Scooter</a>
+          <a href="#">Motor Bicycle</a>
+          <a href="#">Three Wheeler</a>
+          <a href="#">Car</a>
+          <a href="#">SUV</a>
+      </div>
+    </div><br><br><br><br>
+
+
+    <!--<form action="/action_page.php">-->
+      <label for="pickup" class="date">Pickup Location :-</label>
+      <button onclick="getLocation()" id="location" class="btn"><i class="fa fa-map-marker"></i> Click here </button><br><br><br>
+    <!--</form>-->
+
+    <!--</form>-->
+
+    <div style="position:relative; left:30px;">
+    <button class="button" style="vertical-align:middle"><span>Submit </span></button>
+
+    </div>
+
+
+</div>
+
+
+     <div> <p class="italicpara" style="position:relative; display: inline-block; left:560px; bottom: 450px;">Get 10% off for the first vehicle you rent or for the first<br>  ride with us !</p> </div>
+
+     <div><img src="Images/logo1.png" height="250px" width="500px" style="position:absolute; display: inline-block; left:590px; bottom: 200px;"></div>
+
+     <div><img src="Images/efficiency.png" height="140px" width="250px" style="position:absolute; display: inline-block; left:1210px; bottom: 340px;"></div>
+
+     <div> <p class="bolditalicpara" style="position:absolute; display: inline-block; left:1190px; bottom: 260px;">-Efficient service-</p> </div>
+
+     <div><img src="Images/reliability.png" height="140px" width="185px" style="position:absolute; display: inline-block; left:1210px; bottom: 90px;"></div>
+
+     <div> <p class="bolditalicpara" style="position:absolute; display: inline-block; left:1150px; bottom: 0px;">-Reliable service-</p> </div>
+
+     <div><img src="Images/vehicles.png" height="180px" width="255px" style="position:absolute; display: inline-block; left:750px; bottom: -10px;"></div>
+
+     <div> <p class="bolditalicpara"style="position:absolute; display: inline-block; left:690px; bottom: -60px;">-Select different vehicles-</p> </div>
+
+
+</body>
+</html>
